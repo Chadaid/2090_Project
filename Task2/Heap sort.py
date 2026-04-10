@@ -1,7 +1,5 @@
 def heapi(arr, n, i):
-    """
-    Build a max heap
-    """
+    #Build a max heap
     largest = i          # Initialize the largest element as root
     left = 2 * i + 1     # Left child index
     right = 2 * i + 2    # Right child index
@@ -22,9 +20,8 @@ def heapi(arr, n, i):
         heapi(arr, n, largest)
 
 def heap_sort(arr):
-    """
-    The main function of heap-sort
-    """
+
+    #The main function of heap-sort
     n = len(arr)
 
     # Step 1: Build initial max heap
@@ -47,9 +44,7 @@ def heap_sort(arr):
         # After swapping, adjust the new heap top to restore the max heap property
         heapi(arr, i, 0)
 
-# ==========================================
 # Test code
-# ==========================================
 if __name__ == "__main__":
     # 1. Prepare an array
     arr = [3, 1, 4, 1, 5, 9, 2, 6]
