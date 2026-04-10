@@ -1,24 +1,25 @@
-# Simple Max Heap
+# Heap Sort
 
-This is a simple Python Max Heap class. It takes an unordered list and automatically converts it into a max heap upon initialization with a time complexity of $O(n)$.
+A Python implementation of **heap sort** using a max heap.
 
-## Usage
+## How It Works
+1. Build a max heap from the input array — $O(n)$
+2. Repeatedly extract the max element and place it at the end — $O(n \log n)$
 
-You can directly include or import this class into your code and pass a list to instantiate a max heap.
+Overall time complexity: $O(n \log n)$
 
-### Example
+## How to Run
+```bash
+cd Task2
+python "Heap sort.py"
+```
 
-```python
-# Assuming the code is saved in heap.py
-# from heap import Heap
+### Example Output
+```
+initial array: [3, 1, 4, 1, 5, 9, 2, 6]
 
-# 1. Prepare an unordered array
-arr =[3, 1, 4, 1, 5, 9, 2, 6]
-
-# 2. Instantiate the Heap
-max_heap = Heap(arr)
-
-# 3. Print the result
-print(max_heap) 
-# Output:[9, 6, 4, 1, 5, 3, 2, 1] 
-# (The array now satisfies the max heap property: the parent node is always greater than or equal to its children)
+Initial maximum heap: [9, 6, 4, 1, 5, 3, 2, 1]
+After the 1th sort: [6, 5, 4, 1, 1, 3, 2, 9] (Sorted array: [9])
+...
+The final result after heap-sort is completed: [1, 1, 2, 3, 4, 5, 6, 9]
+```
