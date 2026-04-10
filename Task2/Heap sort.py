@@ -46,12 +46,7 @@ def heap_sort(arr):
 
 #Test code
 if __name__ == "__main__":
-    #1. Prepare an array
     arr = [3, 1, 4, 1, 5, 9, 2, 6]
     print(f"initial array: {arr}\n")
-
-    #2. Heap sort
     heap_sort(arr)
-
-    #3. Final result
     print(f"\nThe final result after heap-sort is completed: {arr}")
