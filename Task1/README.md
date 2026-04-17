@@ -23,3 +23,6 @@ A GUI-based classroom booking system built with Python and Tkinter.
 cd Task1
 python main.py
 ```
+
+## Introduction  Video
+<video src="./Task1_video_compressed.mp4" controls width="600"></video>
