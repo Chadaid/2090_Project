@@ -25,4 +25,4 @@ The final result after heap-sort is completed: [1, 1, 2, 3, 4, 5, 6, 9]
 ```
 
 ## Introduction  Video
-<video src="./Task2_video.mp4" controls width="600"></video>
+[Video](./Task2_video.mp4)

@@ -25,4 +25,4 @@ python main.py
 ```
 
 ## Introduction  Video
-<video src="./Task1_video_compressed.mp4" controls width="600"></video>
+[Video](./Task1_video_compressed.mp4)
